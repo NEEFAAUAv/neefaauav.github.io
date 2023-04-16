@@ -946,10 +946,7 @@ section {
   font-family: var(--font-secondary);
 }
 
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
+
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
@@ -1642,4 +1639,11 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+
+.NEEFLogo {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
 }
