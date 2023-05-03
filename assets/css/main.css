@@ -1672,7 +1672,7 @@ section {
   margin: auto;
   display: block;
   border-bottom: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 #schedule .nav-tabs li {
@@ -1682,7 +1682,7 @@ section {
 
 #schedule .nav-tabs a {
   border: none;
-  border-radius: 50px;
+  border-radius: 30px;
   font-weight: 600;
   background-color: #7f7f90;
   color: #fff;
@@ -1697,7 +1697,7 @@ section {
 
 @media (max-width: 767px) {
   #schedule .nav-tabs a {
-    padding: 8px 50px;
+    padding: 10px 60px;
   }
 }
 
@@ -1721,7 +1721,7 @@ section {
 
 @media (min-width: 991px) {
   #schedule .sub-heading {
-    width: 75%;
+    width: auto;
   }
 }
 
