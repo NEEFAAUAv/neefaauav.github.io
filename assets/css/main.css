@@ -1769,13 +1769,13 @@ section {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: var(--color-primary);
+  color: #ffb347;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: var(--color-primary);
+  color: #ffb347;
   margin-bottom: 0;
 }
