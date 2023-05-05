@@ -28,6 +28,17 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<style>
+				.card {
+						margin: 40px;
+				}
+		</style>
+
 </head>
 
 <body>
@@ -49,7 +60,7 @@
           <li><a href="#chefs">A Equipa</a></li>
           <li><a href="#menu">Patrocínios</a></li>
           <li><a href="#schedule">Agenda</a></li>
-          <!--<li><a href="#contact">Contactos</a></li> -->
+          <li><a href="#detalhes">Palestras e Workshops</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -318,7 +329,7 @@
                   <div class="col-lg-6">
                     <div class="testimonial-content">
                       <h3>David Carriço</h3>
-                      <h4>1º Secretário da Mesa da RGM do NEEF</h4>
+                      <h4>Vogal do Setor Cultural do NEEF</h4>
                     </div>
                   </div>
                   <div class="col-lg-2 text-center">
@@ -594,7 +605,14 @@
                 </div>
     
                 <div class="row gy-5">
-                  Serão anunciados em breve...!
+                    
+                <div class="col-lg-4 menu-item">
+                  <a href= class="glightbox"><img src="assets/img/stepup.png" class="menu-img img-fluid" alt=""></a>
+                  <p class="price">
+                    Step Up - Universidade de Aveiro
+                  </p>
+                </div><!-- Menu Item -->
+                 
     
 
 
@@ -659,7 +677,7 @@
               <div class="col-md-2"><time>14:30 - 16:15 AM</time></div>
               <div class="col-md-10">
                 <h4>Sessão de Abertura</h4>
-                <p>Com presença do Exº Sr. Reitor, Ordem dos Engenheiros e Complex Systems Society</p>
+                <p>Com presença do Exº Sr. Reitor, Ordem dos Engenheiros e José Fernando Mendes (Complex Systems Society)</p>
               </div>
             </div>
             <div class="row schedule-item">
@@ -687,7 +705,7 @@
               <div class="col-md-2"><time>18:00 - 19:00H</time></div>
               <div class="col-md-10">
                 <h4>Palestra Grupo de Operações Especiais da PSP (Sala 23.1.6)</h4>
-                <p>Liderança e Alta Performance</p>
+                <p>Organização a Alta-Performance</p>
               </div>
             </div>
 
@@ -747,6 +765,14 @@
         <!-- Schdule Day 3 -->
           <div role="tabpanel" class="col-lg-9 tab-pane " id="dia3">
 
+            <div class="row schedule-item">
+                <div class="col-md-2"><time>14:30 - 16:30H</time></div>
+                <div class="col-md-10">
+                  <h4>Workshop (Sala 10.2.8)</h4>
+                  <p>Lean Academy Portugal </p>
+                </div>
+              </div>
+
 
             
             <div class="row schedule-item">
@@ -791,10 +817,20 @@
           <div class="row schedule-item">
             <div class="col-md-2"><time>17:15 - 19:00H </time></div>
             <div class="col-md-10">
-              <h4>Roundtable Antigos Alunos NEEF e NEEMec</h4>
+              <h4>Roundtable Antigos Alunos NEEMec</h4>
               <p>Antigos Alunos NEEMec</p>
             </div>
           </div>
+
+
+          <div class="row schedule-item">
+            <div class="col-md-2"><time>17:15 - 19:00H </time></div>
+            <div class="col-md-10">
+              <h4>Roundtable Antigos Alunos NEEF </h4>
+              <p>Antigos Alunos NEEF: André Ferreira e Luís Martins (Bosch)</p>
+            </div>
+          </div>
+
 
           <div class="row schedule-item">
             <div class="col-md-2"><time>19:00 - 00:00H </time></div>
@@ -806,13 +842,130 @@
 
       
 
-        <!-- End Schdule Day 3 -->  
+        <!-- End Schdule Day 4 -->  
       </div>        
     </section><!-- End Schedule Section -->
 
+				 <!-- ======= Workshops Section ======= -->
+				<section id="detalhes" class="testimonials section-bg">
+					<div class="container" data-aos="fade-up">
+
+							<div class="section-header">
+									<h2>Palestras e Workshops</h2>
+									<p>Alguma informação  acerca das nossas  <span>palestras e workshops</span></p>
+							</div>
+
+
+    <div class="container" >
+      <div class="row">
+				
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/img/sensores.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Sensores óticos inteligentes para a Internet das Coisas: captação e geração de energia e autenticação móvel.</h5>
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">Mostrar Mais</button>
+              <div id="collapseOne" class="collapse">
+                <p class="card-text"> Os sensores desempenham um papel fundamental na Internet das Coisas (IoT) monitorizando diferentes parâmetros internos e 
+									externos às redes de comunicação. Os desafios para a IoT incluem estratégias acessíveis capazes de converter de forma sustentável um sinal de uma rede de sensores óticos numa sequência de dados digitais. O acoplamento de sensores óticos a smartphones surge como uma possibilidade para a nova geração de sensores óticos móveis. A fotoluminescência destaca-se como um método ótico remoto baseado na dependência da emissão de um material com um dado parâmetro físico (e.g. temperatura). Nesta apresentação, iremos combinar termometria de luminescência e funções físicas não clonáveis (PUFs) para a deteção móvel da temperatura num leque alargado de aplicações, nas quais se destacam os serviços de e-Saúde. Esta abordagem explora o desenvolvimento de sistemas eficazes, sustentáveis e de baixo custo que promovem a prestação de cuidados de saúde. O uso combinado de smartphones e LEDs é uma abordagem sustentável para a indústria, para a aceitação social e uso generalizado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/img/org.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Organização a Alta-Performance</h5>
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo">Mostrar Mais</button>
+              <div id="collapseTwo" class="collapse">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nibh vel augue placerat semper. Nullam dictum consectetur risus, sit amet gravida ex sollicitudin in. Nullam at tellus rhoncus, eleifend libero vitae, bibendum quam. Praesent ut urna vel eros euismod posuere. </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
+        <div class="col-md-4">
+          <div class="card">
+            <img src="assets/img/lean.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Lean Management | @ Lean Academy Portugal</h5>
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree">Mostrar Mais</button>
+              <div id="collapseThree" class="collapse">
+                <p class="card-text">A Lean Academy Portugal, uma organização sem fins lucrativos, vem ao "Para Além da Engenharia" dar um workshop sobre Lean Management, uma filosofia de gestão industrial e empresarial que tem como objetivo principal criar valor para a empresa através da redução de desperdício. [Formação Certificada]. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+          <div class="col-md-4">
+            <div class="card">
+                <img src="assets/img/robotica.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Workshop Robótica Industrial | @ Roboplan</h5>
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive">Saber Mais</button>
+                    <div id="collapseFive" class="collapse">
+                      <p class="card-text"> A Roboplan é uma empresa do tecido empresarial Aveirense e referência na Automação 
+                        Industrial e na Robótica, fornecendo aos seus clientes soluções "à medida" para o seu chão de fábrica. Não faltes a este workshop de Robótica Industrial que te ajudará a perceber como é lidar com estas máquinas tão importantes para a Indústria.
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+              
+            
+            <div class="col-md-4">
+              <div class="card">
+                  <img src="assets/img/startup.png" class="card-img-top">
+                  <div class="card-body">
+                      <h5 class="card-title">Como criar uma Startup do 0 </h5>
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix">Saber Mais</button>
+                      <div id="collapseSix" class="collapse">
+                        <p class="card-text">Já pensaste em abrir a tua própria empresa ou estás interessado em saber como é
+                           que se cria uma startup do 0? Nós lemos os teus pensamentos o Dr. José Rabelo, Engenheiro de formação e Consultor de Startups irá falar sobre todo o processo de criar uma Startup.
+                           </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+          <div class="col-md-4">
+            <div class="card">
+                <img src="assets/img/roundtable.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Round-Table Associativismo</h5>
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven">Saber Mais</button>
+                    <div id="collapseSeven" class="collapse">
+                      <p class="card-text">Associativismo manifesta-se de diferentes formas. Já conheces os Núcleos, já conheces o voluntariado. Mas, na realidade, porque é que o Associativismo é tão importante para o nosso futuro? Teremos nesta round-table José Mesquita, aluno da UA e fundador da associação Ryse, Francisca Mineiro ex-vice presidente do setor de apoio aos núcleos da AAUAv e
+                         Sara Pereira presidente da associação nacional de estudantes de engenharia biomédica. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+																	
+
+                  
+
+
+
+
+                  </div>
+                  </div>
+		
+		<!-- =======End  Workshops Section ======= -->
 
   </main><!-- End #main -->
 
@@ -826,7 +979,7 @@
           <div>
             <h4>NEEF</h4>
             <p>
-              Departamento de Física, Unicersidade de Aveiro <br>
+              Departamento de Física, Universidade de Aveiro <br>
               Sala 13.1.48.1<br>
             </p>
           </div>
@@ -839,7 +992,7 @@
           <div>
             <h4>NEEMec</h4>
             <p>
-              Departamento de Enegnharia Mecânica, Unicersidade de Aveiro <br>
+              Departamento de Enegnharia Mecânica, Universidade de Aveiro <br>
               Sala 22.3.22.1<br>
             </p>
           </div>
